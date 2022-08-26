@@ -1,0 +1,101 @@
+body {
+    align-items: center;
+}
+
+main {
+    width: 100%;
+}
+
+/* R2&R3: header component */
+header {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(#ffffff, #fffffff0);
+}
+
+/* Full bleed hero image */
+.hero {
+    background: url(images/hero.jpeg) #caf0f8 center;
+    background-size: cover;
+    width: 100%;
+    border-bottom: #03045e solid 1px;
+}
+
+h1 {
+    margin: 3rem 0;
+    width: 100%;
+    text-align: center;
+    background-color: #caf0f86e;
+    text-shadow: #caf0f8 1px 1px 3px
+}
+
+/* R2&R3: full width content component */
+.description {
+    padding: 1rem;
+    width: 100%;
+}
+
+.description:nth-child(odd) {
+    background: #caf0f8;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #03045e;
+}
+
+.image {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.resume:hover {
+    text-decoration: none;
+    background: #03055e29;
+    color: white;
+}
+
+/* responsive design: tablet and desktop */
+@media screen and (min-width: 800px) {
+
+    /* R2&R3: full width content component */
+    p {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 18px;
+    }
+
+    .resume {
+        font-size: 18px;
+    }
+}
+
+/* responsive design: desktop only */
+@media screen and (min-width: 1300px) {
+
+    /* R2&R3: full width content component */
+    .content {
+        display: flex;
+        justify-content: center;
+        max-width: 80%;
+    }
+
+    .description:nth-child(odd) .content {
+        flex-direction: row-reverse;
+    }
+
+    .image {
+        max-width: 500px;
+    }
+
+    .text {
+        padding: 1rem 2rem;
+        max-width: 800px;
+    }
+}

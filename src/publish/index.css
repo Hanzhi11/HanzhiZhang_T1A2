@@ -1,0 +1,60 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #caf0f8;
+    flex: 1;
+}
+
+/* R2&R3: business card */
+.portrait {
+    width: 8rem;
+    border-radius: 20%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.basicInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: normal;
+    border-bottom: #03045e solid 2px;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 5rem;
+}
+
+.socialLinks a img {
+    width: 2rem;
+    margin-top: 1rem;
+}
+
+/* responsive design: tablet and desktop */
+@media screen and (min-width: 800px) {
+    main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 10rem;
+    }
+
+    /* R2&R3: business card */
+    .portrait {
+        margin: 0 6vw 0;
+        width: 14rem;
+    }
+
+    .basicInfo {
+        min-width: 260px;
+    }
+}

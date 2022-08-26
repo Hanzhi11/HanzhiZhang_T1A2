@@ -1,0 +1,24 @@
+@import url(../stylesheet/blogpost.css);
+
+/* Q&A section */
+p,
+.commonQ {
+    padding: 0.5rem 1rem;
+}
+
+.commonQ {
+    max-width: 500px;
+    min-width: 270px;
+}
+
+.question {
+    border: solid 1px #03045e;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.response {
+    padding: 0.5rem 1rem 0;
+    border-top: solid 1px #03045e;
+}

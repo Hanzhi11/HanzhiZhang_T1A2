@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="283.45pt" height="283.45pt" viewBox="0 0 283.45 283.45">
+<g enable-background="new">
+<clipPath id="cp0">
+<path d="M 0 0 L 283.45 0 L 283.45 283.45 L 0 283.45 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path d="M 0 0 L 283.45 0 L 283.45 283.45 L 0 283.45 Z " fill="#ffffff" fill-rule="evenodd"/>
+<path d="M -2.76 -3.72 L 286.31999 -3.72 L 286.31999 287.16 L -2.76 287.16 Z " fill="#00b4d8" fill-rule="evenodd"/>
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 0 1 0 0)" font-size="279" font-family="ArialRoundedMTBold" font-weight="bold"><tspan y="239.316" x="35.709">H</tspan></text>
+</g>
+</g>
+</svg>

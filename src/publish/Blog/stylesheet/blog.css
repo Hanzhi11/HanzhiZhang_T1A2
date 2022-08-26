@@ -1,0 +1,106 @@
+body {
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    flex: 1;
+}
+
+/* R2&R3: header component */
+header {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(#ffffff, #fffffff0);
+}
+
+/* Full bleed hero image */
+.hero {
+    background: url(../images/hero.jpeg) #caf0f8 center;
+    background-size: cover;
+    width: 100%;
+    border-bottom: #03045e solid 1px;
+}
+
+h1 {
+    margin: 3rem 0;
+    width: 100%;
+    text-align: center;
+    background-color: #caf0f86e;
+    text-shadow: #caf0f8 1px 1px 3px
+}
+
+/* R2&R3: blog post card */
+.blogPost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0;
+    background: #caf0f8;
+    padding: 1rem;
+    border-radius: 10% 0;
+    width: 18rem;
+}
+
+.postList {
+    text-decoration: none;
+    display: flex;
+}
+
+.publishDate {
+    font-weight: normal;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.blogPost img {
+    width: 16rem;
+    padding: 1rem 0;
+    align-self: center;
+}
+
+/* responsive design: tablet and desktop */
+@media screen and (min-width: 800px) {
+    main {
+        margin: 2rem 0;
+        display: grid;
+        align-items: stretch;
+        justify-items: center;
+    }
+
+    /* R2&R3: blog post card */
+    .blogPost {
+        margin: 0;
+        width: 22rem;
+    }
+
+    .publishDate {
+        margin-top: auto;
+    }
+
+    .blogPost img {
+        width: 20rem;
+    }
+
+}
+
+/* responsive design: tablet only */
+@media screen and (min-width: 800px) and (max-width: 1299px) {
+    main {
+        gap: 1rem 0;
+        grid-template-columns: 1fr 1fr;
+        max-width: 900px;
+    }
+}
+/* responsive design: desktop only */
+@media screen and (min-width: 1300px) {
+    main {
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: fit-content;
+    }
+}

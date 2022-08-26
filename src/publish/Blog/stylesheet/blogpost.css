@@ -1,0 +1,88 @@
+body {
+    align-items: center;
+}
+
+/* R2&R3: header component */
+header {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(white, #fffffff0);
+}
+
+/* Article content */
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 1rem;
+    max-width: 900px;
+}
+
+h1 {
+    background: #caf0f85f;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    padding: 0 1rem;
+}
+
+.authorNdate {
+    padding: 1rem 1rem;
+    border-bottom: solid 2px #03045e;
+}
+
+p {
+    padding: 0.5rem 1rem;
+    text-align: justify;
+}
+
+/* R2&R3: illustration picture */
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    width: 15rem;
+}
+
+figcaption,
+caption {
+    font-size: 0.9em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+figcaption {
+    background: #f4f2f286;
+}
+
+/* responsive design: element size */
+@media screen and (min-width: 500px) {
+
+    /* R2&R3: illustration picture */
+    figure {
+        width: 20em;
+    }
+}
+
+/* responsive design: tablet and desktop */
+@media screen and (min-width: 800px) {
+
+    /* Article content */
+    h1 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    p {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 18px;
+    }
+
+    /* R2&R3: illustration picture */
+    figure {
+        width: 25em;
+    }
+}

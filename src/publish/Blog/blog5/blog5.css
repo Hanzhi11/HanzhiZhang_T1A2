@@ -1,0 +1,18 @@
+@import url(../stylesheet/blogpost.css);
+
+/* table */
+table {
+    border-top: solid 2px #03045e;
+    border-bottom: solid 2px #03045e;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 70%;
+}
+
+th,
+td {
+    border-top: solid 1px #03045e;
+    border-bottom: solid 1px #03045e;
+    text-align: center;
+    font-size: 0.9em;
+}
