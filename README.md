@@ -2,9 +2,13 @@
 
 https://hanzhi-zhang.netlify.app/
 
+# Link (URL) to my presentation
+
+https://youtu.be/ELef09McWlQ
+
 # Link to my GitHub repo
 
-https://github.com/Hanzhi11/T1A2-Portfolio
+https://github.com/Hanzhi11/HanzhiZhang_T1A2
 
 # Description of my portfolio website:
 
