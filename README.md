@@ -8,7 +8,7 @@ https://youtu.be/ELef09McWlQ
 
 # Link to my GitHub repo
 
-https://github.com/Hanzhi11/HanzhiZhang_T1A2
+https://github.com/Hanzhi11/Portfolio_HanzhiZhang_T1A2
 
 # Description of my portfolio website:
 
